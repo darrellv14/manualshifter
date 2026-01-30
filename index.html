@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Manual Shift Simulator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      body { margin: 0; overflow: hidden; background-color: #111; color: white; }
+      /* Custom slider styling for pedals */
+      input[type=range] {
+        -webkit-appearance: none; 
+        background: transparent; 
+      }
+      input[type=range]::-webkit-slider-thumb {
+        -webkit-appearance: none;
+      }
+      input[type=range]:focus {
+        outline: none;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "react": "https://esm.sh/react@^19.2.4",
+    "three": "https://esm.sh/three@^0.182.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>

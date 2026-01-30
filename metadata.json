@@ -1,0 +1,5 @@
+{
+  "name": "Manual Shift Simulator",
+  "description": "A realistic manual transmission car simulator featuring clutch control, stalling physics, gear shifting, and 3D visualization.",
+  "requestFramePermissions": []
+}
